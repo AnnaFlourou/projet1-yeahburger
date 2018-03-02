@@ -4,7 +4,7 @@
     height: 6px;
     border-radius: 5px;
     margin: 5px;
-    width: 2vw;
+    width: 40px;
     
 }
 .btn_navigation
@@ -20,4 +20,30 @@ header img
 {
     width: 220px;
     height: 45px;
+    padding: 5px;
+}
+
+.menu{
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid grey;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu1{
+    height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid grey;
+    opacity: 0.5;
+}
+.menu1 a{
+    color: white;
+    text-decoration: none;
 }
