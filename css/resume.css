@@ -7,7 +7,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    /*padding-left: 17rem;*/
   }
 }
 
@@ -66,18 +66,18 @@ h2 {
 
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 2rem;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 12rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
     display: flex;
-    margin: auto auto 0;
+    /*margin: auto auto 0;*/
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
@@ -105,15 +105,42 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  /*border-bottom: 1px solid #dee2e6;*/
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:scroll;
+  background-size:cover;
 }
 
-section.resume-section .resume-item .resume-date {
+/*section.resume-section .resume-item .resume-date {
   min-width: none;
-}
+}*/
 
+@media (max-width: 1024px) {
+  /*section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }*/
+  .logo img{
+    width: 150px;
+    height: 30px;
+  }
+  .bg-primary{
+    background-image: none !important;
+    background-color: #F47320 !important;
+  }
+  
+  .section1, .section2, .section3, .section4, .section5, .section6, .section7{
+    /*background-image: none !important;*/
+  }
+}
+/* jusqu'a 600px tout cliquable, a partir de 601 cliquer sur bulle*/
+
+/*
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -122,19 +149,53 @@ section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
 }
-
-@media (min-width: 992px) {
+*/
+@media (min-width: 1025px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
+/*
+  .section1{
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_01.jpg");
+  background-repeat: cover;
+  }
+  .section2{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_02.jpg");
+    background-repeat: cover;
+  }
+  .section3{
+    background-image: url("http://yeahburger.com/img/hero-whereitsat.jpg?1416345655");
+    background-repeat: cover;
+  }
+  .section4{
+    background-image: url("http://yeahburger.com/img/hero-loyalty-card.jpg?1416345655");
+    background-repeat: cover;
+  }
+  .section5{
+    background-image: url("http://yeahburger.com/img/hero-keepitlocal.jpg?1416345655");
+    background-repeat: cover;
+  }
+  .section6{
+    background-image: url("http://yeahburger.com/img/hero-foodforall.jpg?1416345655");
+    background-repeat: cover;
+  }
+  .section7{
+    background-image: url("http://yeahburger.com/img/hero-earthinmind.jpg?1416345655");
+    background-repeat: cover;
+  }
+*/
 }
 .logo img{
   width: 220px;
   height: 50px;
 }
 .bg-primary {
-  background-color: #F47320 !important;
+  background-image: url(http://yeahburger.com/img/nav-bg.jpg?1416345657);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  /*background-color: #F47320 !important;*/
 }
 
 .text-primary {
@@ -148,31 +209,38 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+.section1, .section2, .section3, .section4, .section5, .section6, .section7{
+  display: grid;
+}
+
+.section1>*, .section2>*, .section3>*, .section4>*, .section5>*, .section6>*, .section7>* {
+  grid-area: 1 / 1 / 2 / 2;
+}
 .section1{
-  background-image: url("http://yeahburger.com/img/hero-slide1.jpg?1416345655");
-  background-repeat: no-repeat;
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_01.jpg");
+  background-size: cover;
 }
 .section2{
-  background-image: url("http://yeahburger.com/img/hero-girl-smiling.jpg?1416345655");
-  background-repeat: no-repeat;
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_02.jpg");
+  background-size: cover;
 }
 .section3{
-  background-image: url("http://yeahburger.com/img/hero-whereitsat.jpg?1416345655");
-  background-repeat: no-repeat;
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_03.jpg");
+  background-size: cover;
 }
 .section4{
-  background-image: url("http://yeahburger.com/img/hero-loyalty-card.jpg?1416345655");
-  background-repeat: no-repeat;
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_04.jpg");
+  background-size: cover;
 }
 .section5{
-  background-image: url("http://yeahburger.com/img/hero-keepitlocal.jpg?1416345655");
-  background-repeat: no-repeat;
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_05.jpg");
+  background-size: cover;
 }
 .section6{
-  background-image: url("http://yeahburger.com/img/hero-foodforall.jpg?1416345655");
-  background-repeat: no-repeat;
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_06.jpg");
+  background-size: cover;
 }
 .section7{
-  background-image: url("http://yeahburger.com/img/hero-earthinmind.jpg?1416345655");
-  background-repeat: no-repeat;
+  background-image: url("http://yeahburger.com/img/mobile_homeslide_07.jpg");
+  background-size: cover;
 }
