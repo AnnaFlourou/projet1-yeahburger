@@ -1,0 +1,23 @@
+.barre
+{
+    background-color: #FFF;
+    height: 6px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 2vw;
+    
+}
+.btn_navigation
+{
+    
+}
+
+header
+{
+    background-color: #F47320;
+}
+header img
+{
+    width: 220px;
+    height: 45px;
+}
