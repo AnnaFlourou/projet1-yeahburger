@@ -1,14 +1,20 @@
+@font-face {
+  font-family: "futura-pt";
+  font-style: normal;
+  font-weight: 800;
+  src: url("https://use.typekit.net/af/adab56/000000000000000000010097/27/l?subset_id=2&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/adab56/000000000000000000010097/27/d?subset_id=2&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/adab56/000000000000000000010097/27/a?subset_id=2&fvd=n8&v=3") format("opentype");
+  }
+  @font-face {
+  font-family: "league-gothic";
+  font-style: normal;
+  font-weight: 800;
+  src: url("https://use.typekit.net/af/93caef/000000000000000000014689/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/93caef/000000000000000000014689/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/93caef/000000000000000000014689/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
+  }
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
   color: #868e96;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    /*padding-left: 17rem;*/
-  }
 }
 
 h1,
@@ -63,8 +69,28 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
-
+@media (max-width: 991px){
+  .supra .nav-item{
+    border: 1px solid #ebe6e1ea;
+    font-family: "league-gothic";
+  }
+  .extra{
+    font-size: 1.7vh;
+    /*font-size: 14px;*/
+    text-align: center;
+  }
+  .social{
+    border: none;
+    font-family: "league-gothic";
+    font-size: 2vh;
+    text-align: right;
+  }
+}
 @media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    /*padding-left: 17rem;*/
+  }
   #sideNav {
     text-align: left;
     position: fixed;
