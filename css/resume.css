@@ -70,14 +70,43 @@ h2 {
   text-transform: uppercase;
 }
 @media (max-width: 991px){
+  .navbar-toggler{
+    border: none;
+  }
+  .navbar-toggler:focus,
+  .dropdown a:link,.dropdown a:visited,.dropdown a:hover,.dropdown a:active {
+    outline: none;
+  }
+  .dropdown-menu{
+    box-sizing: content-box;
+    /*height: 100%;*/
+    /*padding-bottom: 50px;*/
+    background-color: #F47320;
+  }
+  .dropdown-item{
+    color: white;
+  }
+  .dropdown-item:hover{
+    background-color: grey;
+    color: white;
+  }
+  .first a{
+    color:white !important;
+  }
   .supra .nav-item{
-    border: 1px solid #ebe6e1ea;
+    border-top: 1px solid #ebe6e1ea;
     font-family: "league-gothic";
+  }
+  .extra .nav-item{
+    border-bottom: 1px solid #ebe6e1ea;
   }
   .extra{
     font-size: 1.7vh;
     /*font-size: 14px;*/
     text-align: center;
+  }
+  .item-bdr{
+    border-right: 1px solid #ebe6e1ea;
   }
   .social{
     border: none;
@@ -85,11 +114,43 @@ h2 {
     font-size: 2vh;
     text-align: right;
   }
+  .section1{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_01.jpg");
+    background-size: cover;
+  }
+  .section2{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_02.jpg");
+    background-size: cover;
+  }
+  .section3{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_03.jpg");
+    background-size: cover;
+  }
+  .section4{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_04.jpg");
+    background-size: cover;
+  }
+  .section5{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_05.jpg");
+    background-size: cover;
+  }
+  .section6{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_06.jpg");
+    background-size: cover;
+  }
+  .section7{
+    background-image: url("http://yeahburger.com/img/mobile_homeslide_07.jpg");
+    background-size: cover;
+  }
 }
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     /*padding-left: 17rem;*/
+  }
+
+  .first a{
+    color:white !important;
   }
   #sideNav {
     text-align: left;
@@ -127,6 +188,34 @@ h2 {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+  }
+  .section1{
+    background-image: url("http://yeahburger.com/img/hero-slide1.jpg?1416345655");
+    background-size: cover;
+  }
+  .section2{
+    background-image: url("http://yeahburger.com/img/hero-girl-smiling.jpg?1416345655");
+    background-size: cover;
+  }
+  .section3{
+    background-image: url("http://yeahburger.com/img/hero-whereitsat.jpg?1416345655");
+    background-size: cover;
+  }
+  .section4{
+    background-image: url("http://yeahburger.com/img/hero-loyalty-card.jpg?1416345655");
+    background-size: cover;
+  }
+  .section5{
+    background-image: url("http://yeahburger.com/img/hero-keepitlocal.jpg?1416345655");
+    background-size: cover;
+  }
+  .section6{
+    background-image: url("http://yeahburger.com/img/hero-foodforall.jpg?1416345655");
+    background-size: cover;
+  }
+  .section7{
+    background-image: url("http://yeahburger.com/img/hero-earthinmind.jpg?1416345655");
+    background-size: cover;
   }
 }
 
@@ -241,32 +330,4 @@ a:hover, a:focus, a:active {
 
 .section1>*, .section2>*, .section3>*, .section4>*, .section5>*, .section6>*, .section7>* {
   grid-area: 1 / 1 / 2 / 2;
-}
-.section1{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_01.jpg");
-  background-size: cover;
-}
-.section2{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_02.jpg");
-  background-size: cover;
-}
-.section3{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_03.jpg");
-  background-size: cover;
-}
-.section4{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_04.jpg");
-  background-size: cover;
-}
-.section5{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_05.jpg");
-  background-size: cover;
-}
-.section6{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_06.jpg");
-  background-size: cover;
-}
-.section7{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_07.jpg");
-  background-size: cover;
 }
