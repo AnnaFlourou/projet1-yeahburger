@@ -147,10 +147,50 @@ h2 {
   body {
     padding-top: 0;
     /*padding-left: 17rem;*/
-  }
-
+  }/*
   .first a{
     color:white !important;
+  }*/
+  .first .nav-item{
+    font-family: "league-gothic";
+    font-size: 1.5vw;
+  }
+  .first .nav-item a:hover{
+    font-family: "league-gothic";
+    font-size: 1.5vw;
+    /*color:  #f3c761  !important;*/
+    color: rgba( 243, 199, 97, 0.8) !important;
+  }
+  .extra .nav-item{
+    font-family: "league-gothic";
+    font-size: 1vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding-top: 0;
+    margin-bottom: 2px;
+    height: 25px;
+  }
+  .dropdown-toggle{
+    display:none !important;
+  }
+  .social{
+    display:none;
+  }
+  .first .nav-item{
+    margin-bottom: -28px;
+  }
+  .extra{
+    /*margin-top: 50px;*/
+    margin: 50px auto 0 auto;
+    width: 10vw;
+  }
+  .extra a{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    color: #9d7852 !important;
+  }
+  .extra .nav-item:hover{
+    background-color: rgba(255, 255, 255, 0.5);
   }
   #sideNav {
     text-align: left;
@@ -189,6 +229,10 @@ h2 {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+  .social-bar{
+    width: 5vw;
+    background-color: blue !important;
+  }
   .section1{
     background-image: url("http://yeahburger.com/img/hero-slide1.jpg?1416345655");
     background-size: cover;
@@ -217,6 +261,9 @@ h2 {
     background-image: url("http://yeahburger.com/img/hero-earthinmind.jpg?1416345655");
     background-size: cover;
   }
+  .section1 a{
+    display:none;
+  }
 }
 
 section.resume-section {
@@ -229,17 +276,7 @@ section.resume-section {
   background-size:cover;
 }
 
-/*section.resume-section .resume-item .resume-date {
-  min-width: none;
-}*/
-
 @media (max-width: 1024px) {
-  /*section.resume-section {
-    min-height: 100vh;
-  }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }*/
   .logo img{
     width: 150px;
     height: 30px;
@@ -247,10 +284,6 @@ section.resume-section {
   .bg-primary{
     background-image: none !important;
     background-color: #F47320 !important;
-  }
-  
-  .section1, .section2, .section3, .section4, .section5, .section6, .section7{
-    /*background-image: none !important;*/
   }
 }
 /* jusqu'a 600px tout cliquable, a partir de 601 cliquer sur bulle*/
@@ -309,8 +342,6 @@ section.resume-section {
   background-image: url(http://yeahburger.com/img/nav-bg.jpg?1416345657);
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-attachment: fixed;*/
-  /*background-color: #F47320 !important;*/
 }
 
 .text-primary {
