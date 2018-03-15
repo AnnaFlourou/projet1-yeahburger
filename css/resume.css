@@ -1,20 +1,21 @@
 @font-face {
-  font-family: "futura-pt";
-  font-style: normal;
-  font-weight: 800;
-  src: url("https://use.typekit.net/af/adab56/000000000000000000010097/27/l?subset_id=2&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/adab56/000000000000000000010097/27/d?subset_id=2&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/adab56/000000000000000000010097/27/a?subset_id=2&fvd=n8&v=3") format("opentype");
-  }
-  @font-face {
-  font-family: "league-gothic";
-  font-style: normal;
-  font-weight: 800;
-  src: url("https://use.typekit.net/af/93caef/000000000000000000014689/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/93caef/000000000000000000014689/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/93caef/000000000000000000014689/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
-  }
+    font-family: "futura-pt";
+    font-style: normal;
+    font-weight: 800;
+    src: url("https://use.typekit.net/af/adab56/000000000000000000010097/27/l?subset_id=2&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/adab56/000000000000000000010097/27/d?subset_id=2&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/adab56/000000000000000000010097/27/a?subset_id=2&fvd=n8&v=3") format("opentype");
+}
+
+@font-face {
+    font-family: "league-gothic";
+    font-style: normal;
+    font-weight: 800;
+    src: url("https://use.typekit.net/af/93caef/000000000000000000014689/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/93caef/000000000000000000014689/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/93caef/000000000000000000014689/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
+}
 
 body {
-  font-family: 'Open Sans', serif;
-  padding-top: 54px;
-  color: #868e96;
+    font-family: 'Open Sans', serif;
+    padding-top: 54px;
+    color: #868e96;
 }
 
 h1,
@@ -23,342 +24,399 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40;
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
 }
 
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+    font-size: 6rem;
+    line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
+    font-size: 3.5rem;
 }
 
 .subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.35rem;
 }
 
 .list-social-icons a {
-  color: #495057;
+    color: #495057;
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+    color: #BD5D38;
 }
 
 .list-social-icons a .fa-lg {
-  font-size: 1.75rem;
+    font-size: 1.75rem;
 }
 
 .list-icons {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+    color: #BD5D38;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 600;
-  text-transform: uppercase;
+    font-weight: 600;
+    text-transform: uppercase;
 }
-@media (max-width: 991px){
-  .navbar-toggler{
-    border: none;
-  }
-  .navbar-toggler:focus,
-  .dropdown a:link,.dropdown a:visited,.dropdown a:hover,.dropdown a:active {
-    outline: none;
-  }
-  .dropdown-menu{
-    box-sizing: content-box;
-    /*height: 100%;*/
-    /*padding-bottom: 50px;*/
-    background-color: #F47320;
-  }
-  .dropdown-item{
-    color: white;
-  }
-  .dropdown-item:hover{
-    background-color: grey;
-    color: white;
-  }
-  .first a{
-    color:white !important;
-  }
-  .supra .nav-item{
-    border-top: 1px solid #ebe6e1ea;
-    font-family: "league-gothic";
-  }
-  .extra .nav-item{
-    border-bottom: 1px solid #ebe6e1ea;
-  }
-  .extra{
-    font-size: 1.7vh;
-    /*font-size: 14px;*/
-    text-align: center;
-  }
-  .item-bdr{
-    border-right: 1px solid #ebe6e1ea;
-  }
-  .social{
-    border: none;
-    font-family: "league-gothic";
-    font-size: 2vh;
-    text-align: right;
-  }
-  .section1{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_01.jpg");
-    background-size: cover;
-  }
-  .section2{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_02.jpg");
-    background-size: cover;
-  }
-  .section3{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_03.jpg");
-    background-size: cover;
-  }
-  .section4{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_04.jpg");
-    background-size: cover;
-  }
-  .section5{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_05.jpg");
-    background-size: cover;
-  }
-  .section6{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_06.jpg");
-    background-size: cover;
-  }
-  .section7{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_07.jpg");
-    background-size: cover;
-  }
+
+@media (max-width: 991px) {
+    .navbar-toggler {
+        border: none;
+    }
+    select.orangeMenuSelect:focus {
+        outline: none;
+    }
+    select.orangeMenuSelect {
+        background: #F47320;
+        overflow: hidden;
+        border: none;
+        font-size: 14px;
+        height: 29px;
+        padding: 5px;
+        /* If you add too much padding here, the options won't show in IE */
+        width: 268px;
+        color: white;
+        padding: 0;
+        font-size: 1rem;
+    }
+    .navbar-toggler:focus,
+    .dropdown a:link,
+    .dropdown a:visited,
+    .dropdown a:hover,
+    .dropdown a:active {
+        outline: none;
+    }
+    .dropdown-menu {
+        position: absolute;
+        /*height: 100%;*/
+        /*padding-bottom: 50px;*/
+        background-color: #F47320;
+    }
+    .dropdown-item {
+        color: white;
+    }
+    .dropdown-item:hover {
+        background-color: grey;
+        color: white;
+    }
+    .first a {
+        color: white !important;
+    }
+    .supra select {
+        width: 30vw;
+    }
+    .supra .nav-item {
+        border-top: 1px solid #ebe6e1ea;
+        font-family: "league-gothic", Arial, Helvetica, sans-serif;
+    }
+    .extra .nav-item {
+        border-bottom: 1px solid #ebe6e1ea;
+    }
+    .extra {
+        font-size: 1.7vh;
+        /*font-size: 14px;*/
+        text-align: center;
+    }
+    .item-bdr {
+        border-right: 1px solid #ebe6e1ea;
+    }
+    .social {
+        border: none;
+        font-family: "league-gothic", Arial, Helvetica, sans-serif;
+        font-size: 2vh;
+        text-align: right;
+    }
+    .section1 {
+        background-image: url("http://yeahburger.com/img/mobile_homeslide_01.jpg");
+        background-size: cover;
+    }
+    .section2 {
+        background-image: url("http://yeahburger.com/img/mobile_homeslide_02.jpg");
+        background-size: cover;
+    }
+    .section3 {
+        background-image: url("http://yeahburger.com/img/mobile_homeslide_03.jpg");
+        background-size: cover;
+    }
+    .section4 {
+        background-image: url("http://yeahburger.com/img/mobile_homeslide_04.jpg");
+        background-size: cover;
+    }
+    .section5 {
+        background-image: url("http://yeahburger.com/img/mobile_homeslide_05.jpg");
+        background-size: cover;
+    }
+    .section6 {
+        background-image: url("http://yeahburger.com/img/mobile_homeslide_06.jpg");
+        background-size: cover;
+    }
+    .section7 {
+        background-image: url("http://yeahburger.com/img/mobile_homeslide_07.jpg");
+        background-size: cover;
+    }
 }
+
 @media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    /*padding-left: 17rem;*/
-  }/*
+    body {
+        padding-top: 0;
+        /*padding-left: 17rem;*/
+    }
+    /*
   .first a{
     color:white !important;
   }*/
-  .first .nav-item{
-    font-family: "league-gothic";
-    font-size: 1.5vw;
-  }
-  .first .nav-item a:hover{
-    font-family: "league-gothic";
-    font-size: 1.5vw;
-    /*color:  #f3c761  !important;*/
-    color: rgba( 243, 199, 97, 0.8) !important;
-  }
-  .extra .nav-item{
-    font-family: "league-gothic";
-    font-size: 1vw;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding-top: 0;
-    margin-bottom: 2px;
-    height: 25px;
-  }
-  .dropdown-toggle{
-    display:none !important;
-  }
-  .social{
-    display:none;
-  }
-  .first .nav-item{
-    margin-bottom: -28px;
-  }
-  .extra{
-    /*margin-top: 50px;*/
-    margin: 50px auto 0 auto;
-    width: 10vw;
-  }
-  .extra a{
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-    color: #9d7852 !important;
-  }
-  .extra .nav-item:hover{
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-  #sideNav {
-    text-align: left;
-    position: fixed;
-    top: 0;
-    left: 2rem;
-    display: flex;
-    flex-direction: column;
-    width: 12rem;
-    height: 100vh;
-  }
-  #sideNav .navbar-brand {
-    display: flex;
-    /*margin: auto auto 0;*/
-    padding: 0.5rem;
-  }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
-  #sideNav .navbar-collapse {
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
-  }
-  #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
-  }
-  .social-bar{
-    width: 5vw;
-    background-color: blue !important;
-  }
-  .section1{
-    background-image: url("http://yeahburger.com/img/hero-slide1.jpg?1416345655");
-    background-size: cover;
-  }
-  .section2{
-    background-image: url("http://yeahburger.com/img/hero-girl-smiling.jpg?1416345655");
-    background-size: cover;
-  }
-  .section3{
-    background-image: url("http://yeahburger.com/img/hero-whereitsat.jpg?1416345655");
-    background-size: cover;
-  }
-  .section4{
-    background-image: url("http://yeahburger.com/img/hero-loyalty-card.jpg?1416345655");
-    background-size: cover;
-  }
-  .section5{
-    background-image: url("http://yeahburger.com/img/hero-keepitlocal.jpg?1416345655");
-    background-size: cover;
-  }
-  .section6{
-    background-image: url("http://yeahburger.com/img/hero-foodforall.jpg?1416345655");
-    background-size: cover;
-  }
-  .section7{
-    background-image: url("http://yeahburger.com/img/hero-earthinmind.jpg?1416345655");
-    background-size: cover;
-  }
-  .section1 a{
-    display:none;
-  }
-}
-
-section.resume-section {
-  /*border-bottom: 1px solid #dee2e6;*/
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  background-repeat:no-repeat;
-  background-position:center center;
-  background-attachment:scroll;
-  background-size:cover;
+    .first .nav-item {
+        font-family: "league-gothic", Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+    }
+    .first .nav-item a:hover {
+        font-family: "league-gothic", Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+        /*color:  #f3c761  !important;*/
+        color: rgba( 243, 199, 97, 0.8) !important;
+    }
+    .extra .nav-item {
+        font-family: "league-gothic", Arial, Helvetica, sans-serif;
+        font-size: 1vw;
+        background-color: rgba(255, 255, 255, 0.4);
+        padding-top: 0;
+        margin-bottom: 2px;
+        height: 25px;
+    }
+    .dropdown-toggle {
+        display: none !important;
+    }
+    .first .nav-item {
+        margin-bottom: -28px;
+    }
+    .extra {
+        /*margin-top: 50px;*/
+        margin: 50px auto 0 auto;
+        width: 10vw;
+    }
+    .extra a {
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+        color: #9d7852 !important;
+    }
+    .extra .nav-item:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    #sideNav {
+        text-align: left;
+        position: fixed;
+        top: 0;
+        left: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 12rem;
+        height: 100vh;
+    }
+    #sideNav .navbar-brand {
+        display: flex;
+        /*margin: auto auto 0;*/
+        padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #sideNav .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+    #socialNav .nav-item {
+        display: block;
+    }
+    #socialNav .nav-item .nav-link {
+        display: block;
+    }
+    .social {
+        display: none;
+    }
+    .social-bar {
+        width: 5vw;
+    }
+    .section1 {
+        background-image: url("http://yeahburger.com/img/hero-slide1.jpg?1416345655");
+        background-size: cover;
+    }
+    .section2 {
+        background-image: url("http://yeahburger.com/img/hero-girl-smiling.jpg?1416345655");
+        background-size: cover;
+    }
+    .section3 {
+        background-image: url("http://yeahburger.com/img/hero-whereitsat.jpg?1416345655");
+        background-size: cover;
+    }
+    .section4 {
+        background-image: url("http://yeahburger.com/img/hero-loyalty-card.jpg?1416345655");
+        background-size: cover;
+    }
+    .section5 {
+        background-image: url("http://yeahburger.com/img/hero-keepitlocal.jpg?1416345655");
+        background-size: cover;
+    }
+    .section6 {
+        background-image: url("http://yeahburger.com/img/hero-foodforall.jpg?1416345655");
+        background-size: cover;
+    }
+    .section7 {
+        background-image: url("http://yeahburger.com/img/hero-earthinmind.jpg?1416345655");
+        background-size: cover;
+    }
+    .project-overlay1 {
+        position: absolute;
+        right: 170px;
+        top: 325px;
+    }
+    .img-sec {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media (max-width: 1024px) {
-  .logo img{
-    width: 150px;
-    height: 30px;
-  }
-  .bg-primary{
-    background-image: none !important;
-    background-color: #F47320 !important;
-  }
+    .logo img {
+        width: 150px;
+        height: 30px;
+    }
+    .bg-primary {
+        background-image: none !important;
+        background-color: #F47320 !important;
+    }
 }
+
+
 /* jusqu'a 600px tout cliquable, a partir de 601 cliquer sur bulle*/
 
-/*
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }
-}
-*/
 @media (min-width: 1025px) {
-  section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-  }
-/*
-  .section1{
-  background-image: url("http://yeahburger.com/img/mobile_homeslide_01.jpg");
-  background-repeat: cover;
-  }
-  .section2{
-    background-image: url("http://yeahburger.com/img/mobile_homeslide_02.jpg");
-    background-repeat: cover;
-  }
-  .section3{
-    background-image: url("http://yeahburger.com/img/hero-whereitsat.jpg?1416345655");
-    background-repeat: cover;
-  }
-  .section4{
-    background-image: url("http://yeahburger.com/img/hero-loyalty-card.jpg?1416345655");
-    background-repeat: cover;
-  }
-  .section5{
-    background-image: url("http://yeahburger.com/img/hero-keepitlocal.jpg?1416345655");
-    background-repeat: cover;
-  }
-  .section6{
-    background-image: url("http://yeahburger.com/img/hero-foodforall.jpg?1416345655");
-    background-repeat: cover;
-  }
-  .section7{
-    background-image: url("http://yeahburger.com/img/hero-earthinmind.jpg?1416345655");
-    background-repeat: cover;
-  }
-*/
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
 }
-.logo img{
-  width: 220px;
-  height: 50px;
+
+.logo img {
+    width: 220px;
+    height: 50px;
 }
+
 .bg-primary {
-  background-image: url(http://yeahburger.com/img/nav-bg.jpg?1416345657);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(http://yeahburger.com/img/nav-bg.jpg?1416345657);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+    color: #BD5D38 !important;
 }
 
 a {
-  color: #BD5D38;
+    color: #BD5D38;
 }
 
-a:hover, a:focus, a:active {
-  color: #824027;
-}
-.section1, .section2, .section3, .section4, .section5, .section6, .section7{
-  display: grid;
+a:hover,
+a:focus,
+a:active {
+    color: #824027;
 }
 
-.section1>*, .section2>*, .section3>*, .section4>*, .section5>*, .section6>*, .section7>* {
-  grid-area: 1 / 1 / 2 / 2;
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7 {
+    display: grid;
+}
+
+.section1>*,
+.section2>*,
+.section3>*,
+.section4>*,
+.section5>*,
+.section6>*,
+.section7>* {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.reseaubloc {
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    display: inline-block;
+    width: 275px;
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #DDD2C1;
+}
+
+.reseaubloc a {
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
+    color: #DDD2C1;
+}
+
+.iconereseau {
+    width: 25px;
+    height: 25px;
+    float: left;
+    font-size: 20px;
+}
+
+.textelink {
+    height: 100%;
+    line-height: 25px;
+    width: 100%;
+}
+
+.boutonbloc {
+    position: fixed;
+    right: 20px;
+    top: 40%;
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
+    color: #DDD2C1;
+}
+
+.boutonbloc a {
+    color: #DDD2C1;
+}
+
+.boutonbloc a:hover {
+    color: #DDD2C1;
+    text-decoration: none;
+}
+
+.boutonbloc p {
+    font-size: 20px;
 }

@@ -47,13 +47,11 @@
         <div class="row supra first">
           <li class="nav-item item-bdr dropdown col-6 col-md-12">
             <a class="nav-link d-none d-lg-block" href="#about">LOCATIONS</a>
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-              href="#about">LOCATIONS</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="">LOCATIONS</a>
-              <a class="dropdown-item" href="#">VIRGINIA HIGHLAND</a>
-              <a class="dropdown-item" href="#">WEST MIDTOWN</a>
-            </div>
+            <select class="orangeMenuSelect d-block d-lg-none" name="forma" onchange="location = this.value;">
+              <option value="" selected disabled hidden>LOCATIONS</option>
+              <option value="#">VIRGINIA HIGHLAND</option>
+              <option value="#">WEST MIDTOWN</option>
+            </select>
           </li>
           <li class="nav-item col-6 col-md-12">
             <a class="nav-link" href="#experience">FOOD</a>
@@ -63,34 +61,32 @@
           <li class="nav-item item-bdr col-6 col-md-12">
             <a class="nav-link" href="#education">CATERING</a>
           </li>
-          <li class="nav-item dropdown col-6 col-md-12">
+          <li class="nav-item col-6 col-md-12">
             <a class="nav-link d-none d-lg-block" href="#skills">PHILOSOPHY</a>
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-              href="#skills">PHILOSOPHY</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="">PHILOSOPHY</a>
-              <a class="dropdown-item" href="#">OUR STORY</a>
-              <a class="dropdown-item" href="#">REAL FOOD</a>
-              <a class="dropdown-item" href="">LOCAL INGREDIENTS</a>
-              <a class="dropdown-item" href="#">ANIMAL WELFARE</a>
-              <a class="dropdown-item" href="#">FOOD FOR ALL</a>
-              <a class="dropdown-item" href="">THE ENVIRONMENT</a>
-              <a class="dropdown-item" href="#">COMMUNITY</a>
-              <a class="dropdown-item" href="#">KNOW YOUR FOOD</a>
-            </div>
+            <select class="orangeMenuSelect d-block d-lg-none" name="forma" onchange="location = this.value;">
+              <option value="" selected disabled hidden>PHILOSOPHY</option>
+              <option value="#">PHILOSOPHY</option>
+              <option value="#">OUR STORY</option>
+              <option value="#">REAL FOOD</option>
+              <option value="#">LOCAL INGREDIENTS</option>
+              <option value="#">ANIMAL WELFARE</option>
+              <option value="#">FOOD FOR ALL</option>
+              <option value="#">THE ENVIRONMENT</option>
+              <option value="#">COMMUNITY</option>
+              <option value="#">KNOW YOUR FOOD</option>
+            </select>
           </li>
         </div>
         <div class="row supra first">
           <li class="nav-item item-bdr dropdown col-6 col-md-12">
             <a class="nav-link d-none d-lg-block" href="#interests">WHAT'S HAPPENING</a>
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-              href="#interests">WHAT'S HAPPENING</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="">WHAT'S HAPPENING</a>
-              <a class="dropdown-item" href="#">UPCOMING EVENTS</a>
-              <a class="dropdown-item" href="#">PRESS</a>
-              <a class="dropdown-item" href="#">AWARDS</a>
-            </div>
+            <select class="orangeMenuSelect d-block d-lg-none" name="forma" onchange="location = this.value;">
+              <option value="" selected disabled hidden>WHAT'S HAPPENING</option>
+              <option value="#">WHAT'S HAPPENING</option>
+              <option value="#">UPCOMING EVENTS</option>
+              <option value="#">PRESS</option>
+              <option value="#">AWARDS</option>
+            </select>
           </li>
           <li class="nav-item col-6 col-md-12">
             <a class="nav-link" href="#awards">CONTACT</a>
@@ -98,13 +94,13 @@
         </div>
         <div class="row supra extra">
           <li class="nav-item item-bdr col-4 col-md-12">
-            <a class="nav-link" href="#skills">KEEPIN' IT REAL CARD</a>
+            <a class="nav-link textelink" href="#skills">KEEPIN' IT REAL CARD</a>
           </li>
           <li class="nav-item item-bdr col-4 col-md-12">
-            <a class="nav-link" href="#interests">MUSIC</a>
+            <a class="nav-link textelink" href="#interests">MUSIC</a>
           </li>
           <li class="nav-item col-4 col-md-12">
-            <a class="nav-link" href="#awards">CAREERS</a>
+            <a class="nav-link textelink" href="#awards">CAREERS</a>
           </li>
         </div>
         <div class="row social">
@@ -142,52 +138,53 @@
       </ul>
     </div>
   </nav>
-  <div class="card-img-overlay fixed-top text-right">
-    <p>Get social</p>
+  <div class="reseaubloc d-none d-lg-block">
+    <p>GET SOCIAL</p>
     <div class="row social-lg">
-        <li class="nav-item col-1 col-md-12">
-          <a class="nav-link" href="#">
-            <i class="fab fa-facebook"></i>
-          </a>
-        </li>
-        <li class="nav-item col-1 col-md-12">
-          <a class="nav-link" href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="nav-item col-1 col-md-12">
-          <a class="nav-link" href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li class="nav-item col-1 col-md-12">
-          <a class="nav-link" href="#">
-            <i class="fab fa-pinterest"></i>
-          </a>
-        </li>
-        <li class="nav-item col-1 col-md-12">
-          <a class="nav-link" href="#">
-            <i class="fab fa-spotify"></i>
-          </a>
-        </li>
-        <li class="nav-item offset-1 col-6 col-md-12">
-          <a class="nav-link" href="#interests">JOIN OUR EMAIL LIST
-            <i class="fas fa-long-arrow-alt-right"></i>
-          </a>
-        </li>
-      </div>
+      <a class="nav-link" href="#">
+        <i class="fab fa-facebook iconereseau"></i>
+      </a>
+      <a class="nav-link" href="#">
+        <i class="fab fa-twitter iconereseau"></i>
+      </a>
+      <a class="nav-link" href="#">
+        <i class="fab fa-instagram iconereseau"></i>
+      </a>
+      <a class="nav-link" href="#">
+        <i class="fab fa-pinterest iconereseau"></i>
+      </a>
+      <a class="nav-link" href="#">
+        <i class="fab fa-spotify iconereseau"></i>
+      </a>
+      <a class="nav-link" href="#interests">JOIN OUR EMAIL LIST
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </a>
     </div>
+  </div>
+  <div class="boutonbloc d-none d-lg-block">
+    <p>
+      <a href="#">NEXT</a>
+    </p>
+    <p>
+      <a href="#">PREV</a>
+    </p>
+  </div>
 
   <!--<nav class="pull-right">NEXT</nav>-->
 
   <div class="container-fluid p-0">
     <section class="section1">
       <svg viewBox="0 0 3 2"></svg>
-      <a href="#">
+      <div class="d-none d-lg-block mx-auto img-sec">
         <div>
-          <!--  Content goes here-->
+          <img src="http://yeahburger.com/img/badge-bon-appetite.png?1416345655" alt="badge1" />
         </div>
-      </a>
+        <div class="project-overlay1 mx-auto">
+          <a href="http://yeahburger.com/" title="blabla">
+            <img src="https://zupimages.net/up/18/09/qhpm.png" alt="click-img1" />
+          </a>
+        </div>
+      </div>
     </section>
 
     <section class="section2">
