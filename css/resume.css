@@ -293,15 +293,59 @@ h2 {
         background-size: cover;
     }
     .project-overlay1 {
-        position: absolute;
-        right: 170px;
-        top: 325px;
+      position: absolute;
+      right: 170px;
+      top: 325px;
     }
-    .img-sec {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .img-sec1 {
+      position: absolute;
+      top: 50%; left: 50%; 
+      transform: translate(-50%, -50%);
+    }
+    
+    .img-sec2 {
+      position: relative;
+      top: 50%; left: 50%; 
+      padding-left: 40%;
+      transform: translate(-50%, -50%);
+      
+    }
+    .project-overlay2{
+      position: absolute;
+      margin: auto;
+      margin-top: 125px;
+      margin-left: -35px;
+      
+    } 
+    .project-overlay3{
+      position: absolute;
+      margin: auto;
+      margin-top: 148px;
+      margin-left: -113px;
+    }
+    .project-overlay4{
+      position: absolute;
+      margin: auto;
+      margin-top: 155px;
+      margin-left: -145px;
+    }
+    .project-overlay5{
+      position: absolute;
+      margin: auto;
+      margin-top: 146px;
+      margin-left: -153px;
+    }
+    .project-overlay6{
+      position: absolute;
+      margin: auto;
+      margin-top: 146px;
+      margin-left: -130px;
+    }
+    .project-overlay7{
+      position: absolute;
+      margin: auto;
+      margin-top: 152px;
+      margin-left: -120px;
     }
 }
 
